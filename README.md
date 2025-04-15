@@ -28,13 +28,13 @@ pip install tensorflow numpy matplotlib kaggle
 ## Dataset
 The dataset used for training and testing the model is the Wildfire Dataset, which can be downloaded from Kaggle. The dataset contains images categorized into two classes:
 
--Fire
--No Fire
+- Fire
+- No Fire
 
 # The dataset is structured into three directories:
--train: for training the model
--val: for validating the model
--test: for testing the model
+- train: for training the model
+- val: for validating the model
+- test: for testing the model
 
 ## Usage
 Clone the repository:
@@ -55,20 +55,20 @@ Run the fire_detection.py script to train the model and evaluate its performance
 ## Model Architecture
 The CNN model consists of the following layers:
 
--Input layer
--Convolutional layers with ReLU activation
--MaxPooling layers
--Flatten layer
--Dense layers with Dropout for regularization
--Output layer with sigmoid activation for binary classification
+- Input layer
+- Convolutional layers with ReLU activation
+- MaxPooling layers
+- Flatten layer
+- Dense layers with Dropout for regularization
+- Output layer with sigmoid activation for binary classification
 
 ## Training
 The model is trained using the following parameters:
 
--Batch size: 32
--Epochs: 12
--Optimizer: Adam
--Loss function: Binary Crossentropy
+- Batch size: 32
+- Epochs: 12
+- Optimizer: Adam
+- Loss function: Binary Crossentropy
 
 Training and validation accuracy and loss are plotted for analysis.
 
