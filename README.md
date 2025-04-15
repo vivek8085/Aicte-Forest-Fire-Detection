@@ -1,4 +1,4 @@
-# 🔥Fire Detection Using Convolutional Neural Networks
+# 🔥Forest Fire Detection Using Convolutional Neural Networks(Deep Learning)
 
 ## Overview
 This project implements a fire detection system using Convolutional Neural Networks (CNNs) to classify images as either containing fire or not. The model is trained on a dataset of wildfire images and can predict the presence of fire in new images.
